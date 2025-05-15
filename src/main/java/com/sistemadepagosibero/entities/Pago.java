@@ -26,7 +26,7 @@ public class Pago {
     @GeneratedValue(strategy = GenerationType.IDENTITY) // Genera ID auto-incremental
     private Long id;
 
-    private LocalDate fechas;
+    private LocalDate fecha;
     private double cantidad;
     private TypePago type;
     private PagoStatus status;

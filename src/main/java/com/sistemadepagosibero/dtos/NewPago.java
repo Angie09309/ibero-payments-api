@@ -15,5 +15,5 @@ public class NewPago {
     private double cantidad;
     private TypePago typePago;
     private LocalDate date;
-    private String codigoiEstudiante;
+    private String codigoEstudiante;
 }
